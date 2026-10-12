@@ -1,0 +1,272 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        li{
+            float: right;
+            
+        }
+        li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            color: brown ;
+        }
+        li i{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li i:hover{
+            color: brown;
+        }
+        .top-link{
+            position: absolute;
+            float: left;
+            top: 10px;
+            left: 20px;
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+        .top-link a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .coffee{
+            
+            font-weight: bold;
+            color: white;
+        }
+        .img{
+            background-image: url(banner-bg.png);
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+        }
+        .carousel-buttons button{
+             width: 45px;
+             height: 45px;
+             border: none;
+             background-color: white;
+             color: black;
+             border-radius: 5px;
+            
+        }
+        .carousel-buttons{
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            
+        }
+        .carousel-buttons button:hover{
+            background-color: orange;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: none !important;
+        }
+        
+        .exl{
+            padding-left: 50px;
+        }
+        .my-header{
+            color: rgb(247,109,55);
+            
+        }
+        .about{
+            padding-right: 50px;
+        }
+        .img1{
+            float: right;
+        }
+        .row-img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .image-box{
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .image-overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(231, 226, 226, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: 0.3s ease;
+        }
+        .image-overlay i {
+            color: black;
+            font-size: 35px;
+        }
+
+        .image-box:hover .image-overlay {
+            opacity: 1;
+        }
+        .orange-hover:hover{
+            background-color: rgb(247,109,55);
+            border-color: orange;
+            color: white;
+        }
+        .services-section{
+            background-image: url("services-bg.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .coffee-card{
+            background-color: #E26E3E;
+            /*border: none !important;
+            border-radius: 0px !important;
+            color: white;*/
+        }
+        .coffee-card:hover{
+            background-color: white;
+            color: black;
+        }
+        .card-icon{
+            width: 80p;
+            height: 80px;
+            object-fit: contain;
+        }
+        .service-card h3 {
+            font-size: 40px;
+            font-weight: 400;
+
+            margin-bottom: 25px;
+        }
+
+        .service-card p {
+            font-size: 18px;
+            line-height: 1.8;
+
+            max-width: 400px;
+
+            margin-bottom: 30px;
+        }
+        .card-icon-down{
+            margin-top: 50px;
+        }
+        .card-icon-down1{
+            margin-top: 50px;
+        }
+        .card-hover-btn .hover-target {
+            display: none;
+        }
+        .card-hover-btn:hover .hover-target {
+            display: inline-block;
+        }
+        .form-box{
+            width: 50%;
+            padding: 50px;
+            background-image: url(img-9.png);
+            background-size: cover;
+            background-position: left center;
+        }
+        .form-box input,
+        .form-box textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border-radius: 30px;
+        }
+        .contact-section{
+            display: flex;
+            width: 100%;
+            min-height: 500px;
+        }
+        .map{
+            width: 50%;
+            min-height: 500px;
+        }
+        .map iframe{
+            width: 100%;
+            height: 100%;
+        }
+        .container2{
+            display: flex;
+            background-color: black;
+        }
+        .but-col{
+            background-color: orange;
+            color: white;
+            border-radius: 30px;
+        }
+        .but-col:hover{
+            background-color: white;
+            color: black;
+        }
+        .carousel-indicators button{
+            background-color: black !important;
+            width: 82px;
+            height: 27px;
+            border-radius: 20px;
+            margin: 0.5px;
+        }
+        .carousel-indicators .active{
+            background-color: red !important;
+            width: 15px;
+
+        }
+        .container2{
+            display: flex;
+            color: white;
+        }
+        .useful_text{
+            padding-top: 20px;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            gap: 0;
+            }
+        .menu li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu a {
+            text-decoration: none;
+            
+        }
+        .padding_left{
+            padding-left: 10px;
+        }
+        i::before{
+            content: icon;
+            box-sizing: border-box;
+        }
+        .footer_menu{
+            width: 100%;
+            float: left;
+        }
+        .contact-us{
+            display: flex;
+            flex-direction: column;
+            }
